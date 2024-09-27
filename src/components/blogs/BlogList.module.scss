@@ -1,0 +1,36 @@
+.BlogStyle {
+    width: 60%;
+    margin-left: 20%;
+    @media(max-width:600px) {
+        width: 100%;
+        margin-left: 0;
+    }
+    figure{
+        @media(max-width:600px) {
+           margin: 60px 0 0 0;
+           padding: 0;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    p{
+        color: gray;
+    }
+    button{
+        width: 90px;
+        height: 30px;
+        border: none;
+        border-radius: 9px;
+        background-color: rgb(13, 208, 133);
+        cursor: pointer;
+        &:hover{
+           color: rgb(231, 11, 11);
+           background-color: rgb(169, 222, 169);
+        }
+    }
+}
